@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #fa7257, #fc63a7);
+  min-height: 100vh;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: white;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text {
+  background-color: #fddddb;
+  padding: 20px;
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  font-weight: 300;
+}
+.inner-container {
+  margin: 10px;
+}
+.button {
+  color: #dd1264;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: none;
+}
